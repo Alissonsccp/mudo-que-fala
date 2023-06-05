@@ -1,0 +1,134 @@
+.cabeçalho{
+display: inline-flex;
+}
+.mostarda{
+    background-color: #B7730E;
+    width: 1000px;
+    height: 297px;
+    display:flex;
+    justify-content: center;
+}
+
+.mostarda_imagem{
+    width: 233.53px;
+    height: 229.74px;
+    padding: 34px;
+}
+
+.cinza{
+    background-color: #B0AFAF;
+    width: 1000px;
+    height: 297px;
+    display:flex;
+    justify-content: center; 
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700px;
+    font-size: 64px
+}
+
+.cinza_texto{
+    display: inline-flex;
+    align-items: center;
+    margin: 77px;
+    text-align: center;
+}
+
+.título{
+font-family: 'Inter', sans-serif;
+font-weight: 900;
+font-size: 80px;
+display: flex;
+justify-content: center;
+padding: 30px;
+}
+
+.texto{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: justify;
+    margin: 35px;
+    width: 1792px;
+    height: 240px;
+}
+
+
+.estrutura{
+    display: grid;
+    grid-template-columns: 980px 980px;
+    row-gap: 72px;
+    column-gap: 40px;
+    margin: 100px;
+    padding-bottom: 27px;
+}
+
+.fachada-identificação{
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 250px;
+    
+}
+
+
+.laboratório_identificação{
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 250px;   
+}
+
+.quadra-identificação{
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 165px;     
+}
+
+.patio-identificação{
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 250px; 
+}
+
+.rodapé {
+    background-color: black;
+    width: 2000px;
+    height: 172px;
+    display: grid;
+    grid-template-columns: 230px 34px 1900px;
+    padding: 20px;
+}
+
+.link {
+    color :#FFFFFF;
+    font-family:'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+a.link{
+    color: #FFFFFF;
+}
+
+.icone {
+    display: grid;
+    row-gap: 12px;
+    padding-left: 50px;
+    border-top: 2px;
+}
+
+.informação {
+    color: #B7730E;
+    font-family: 'Inter' , sans-serif ;
+    font-weight: 300;
+    font-size: 28px;
+    display grid: ;
+    row-gap: 20px;
+    padding-left: 60px;
+    padding-top: 2px;
+    width: 1127px;
+}
